@@ -1,0 +1,79 @@
+
+/* start navigation */ 
+
+.header_area .main-menu .navbar .navbar-brand { 
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.header_area .main-menu .navbar{
+    padding: 0rem 10rem ;
+}
+
+.header_area .main-menu .nav-item .nav-link{
+    font: normal 500 15px/2px;
+    text-transform: uppercase;
+    padding: 1.7rem;
+    color: whitesmoke;
+}
+
+.header_area .main-menu .navbar-nav .active a{
+    background: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a:hover{
+  
+    background-color: linear-gradient(90deg, #4458dc 0%, #854fee 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.header_area .main-menu .navbar-nav a{
+    text-decoration: none;
+}
+
+
+/* end navigation */ 
+
+
+.site-main .site-banner .site-title h3{
+    padding-top: 35%;
+    font-weight: 500;
+    font-size: 2.5rem;
+}
+
+.site-main .site-banner .site-title h3::after{
+    content: " ";
+    height: 2px;
+    width: 18vw;
+    background:black;
+    display: inline-block;
+    margin-left: 5%;
+    transform: translateY(-10px);
+}
+
+.site-main .site-banner .site-title h1{
+    font-size: 4rem;
+}
+
+.site-main .site-banner .site-title h4{
+    font-size: 2rem;
+    
+}
+
+.site-main .site-banner .banner-image > img{
+    padding: 7rem 0;
+    width: 90rem;
+}
+
+
+.container {
+    padding-top: 5rem;
+    text-align: center;
+}
+
+
